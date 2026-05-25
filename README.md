@@ -51,7 +51,7 @@ Two audio files dataset named audio.mp3 and audio1.mp3 are provided in data dire
 ### 1. Clone and enter project
 
 ```bash
-git clone https://github.com/amankiit/AI-Powered-SOAP-Notes-Transcription-Generation.git
+git clone https://github.com/amankiit/SOAP-Notes-Generation-with-OpenAI-Whisper-NLP-NER-and-LLMs-locally.git
 cd SOAP-Notes-Transcription-locally-using-OpenAI-Whisper-NLP-for-PHI-redaction-Ollama
 ```
 
