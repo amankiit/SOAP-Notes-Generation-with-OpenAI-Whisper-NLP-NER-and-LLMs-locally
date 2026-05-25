@@ -3,6 +3,11 @@
 ## Description
 Transcribe medical audio locally using OpenAI Whisper, redact PHI from transcript text using NLP/NER, and generate a structured SOAP note (`Subjective`, `Objective`, `Assessment`, `Plan`) using a local LLM.
 
+## Objective
+To build a privacy-first Clinical System that:
+- transcribes medical audio locally and accurately.
+- redacts Protected Health Information (PHI) from transcripts using regex and NLP/NER.
+- generates structured SOAP notes locally with LLMs without sending patient data to external cloud services.
 
 ## Flowchart
 
@@ -137,7 +142,7 @@ The script writes `output.json` with:
 - Keep local models updated for best SOAP generation quality.
 
 ## Output Format
-
+The output gets stored in output.json file.
 The script writes JSON like this:
 
 ```json
