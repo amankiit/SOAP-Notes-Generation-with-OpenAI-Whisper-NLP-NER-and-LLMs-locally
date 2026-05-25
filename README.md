@@ -11,10 +11,10 @@ Supported audio files : mp3, m4a, etc.
 flowchart TD
     A[Input Audio File] --> B[Audio to text transcription<br/>OpenAI Whisper]
     B --> C[Clean transcript text]
-    C --> D[Redact PHI data<br/>Regex + NLP/NER using spaCy]
-    D --> E[Generate SOAP note<br/>LLM call via Ollama]
-    E --> F[Parse and polish JSON<br/>Python json + LLM]
-    F --> G[Save final output<br/>Python file I/O]
+    C --> D[Redact PHI data (Regex + NLP/NER using spaCy)]
+    D --> E[Generate SOAP note (LLM call via Ollama)]
+    E --> F[Parse and polish JSON (Python json + LLM)]
+    F --> G[Save final output (Python file I/O)]
 ```
 
 ## Tech Stack
@@ -43,7 +43,7 @@ System tools:
 ### 1. Clone and enter project
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/amankiit/AI-Powered-SOAP-Notes-Transcription-Generation.git
 cd SOAP-Notes-Transcription-locally-using-OpenAI-Whisper-NLP-for-PHI-redaction-Ollama
 ```
 
